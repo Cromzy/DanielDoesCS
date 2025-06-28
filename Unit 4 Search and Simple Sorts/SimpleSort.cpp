@@ -17,11 +17,11 @@ long long comparisonCount = 0, exchangeCount = 0;
 void displayArray(int* arr, int theSize); // display array
 
 // exchange elements i and j 
-// and increment a global ìswapCountî variable
+// and increment a global ‚ÄúswapCount‚Äù variable
 void swapElement(int& i, int& j);
 
 // return true if a[i] <= a[j], false otherwise
-// and increment a global ìcompareCountî variable
+// and increment a global ‚ÄúcompareCount‚Äù variable
 bool compareElement(int& i, int& j);
 
 // copy the first s elements from source into dest
@@ -233,7 +233,7 @@ void reverseArray(int* theArray, int theSize) {
 }
 
 // exchange elements i and j 
-// and increment a global ìswapCountî variable
+// and increment a global ‚ÄúswapCount‚Äù variable
 void swapElement(int& i, int& j) {
 
 	exchangeCount++;
@@ -246,7 +246,7 @@ void swapElement(int& i, int& j) {
 }
 
 // return true if a[i] <= a[j], false otherwise
-// and increment a global ìcompareCountî variable
+// and increment a global ‚ÄúcompareCount‚Äù variable
 bool compareElement(int& i, int& j) {
 
 	comparisonCount++;
