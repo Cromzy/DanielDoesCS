@@ -19,11 +19,11 @@ const int SMALL_LIST_SIZE = 10;
 // Prototypes Here:
 
 // exchange elements i and j 
-// and increment a global ìswapCountî variable
+// and increment a global ‚ÄúswapCount‚Äù variable
 void swapElement(int& i, int& j);
 
 // return true if a[i] <= a[j], false otherwise
-// and increment a global ìcompareCountî variable
+// and increment a global ‚ÄúcompareCount‚Äù variable
 bool compareElement(int& i, int& j);
 void displayArray(int* arr, int theSize); // display array
 void insertionSort(int* arr, int theSize);
