@@ -19,11 +19,11 @@ int* insertionSort(int* arr, int theSize);
 void insertionSort(int* arr, int start, int stop);
 
 // return true if a[i] <= a[j], false otherwise
-// and increment a global “compareCount” variable
+// and increment a global â€œcompareCountâ€ variable
 bool compareElement(int& i, int& j);
 
 // exchange elements i and j 
-// and increment a global “swapCount” variable
+// and increment a global â€œswapCountâ€ variable
 void swapElement(int& i, int& j);
 
 bool binarySearch(int* arr, int start, int stop, int searchItem, int count);
@@ -175,7 +175,7 @@ bool binarySearch(int* arr, int start, int stop, int searchItem, int count) {
 }
 
 // exchange elements i and j 
-// and increment a global “swapCount” variable
+// and increment a global â€œswapCountâ€ variable
 void swapElement(int& i, int& j) {
 	int temp;
 
@@ -185,7 +185,7 @@ void swapElement(int& i, int& j) {
 }
 
 // return true if a[i] <= a[j], false otherwise
-// and increment a global “compareCount” variable
+// and increment a global â€œcompareCountâ€ variable
 bool compareElement(int& i, int& j) {
 	return i <= j; // returns true if statement is true, else false
 }
